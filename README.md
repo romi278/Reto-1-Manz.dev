@@ -4,9 +4,9 @@
 
 ## Datos
 
-- 🦄 **Desarrollador/a:** *Nombre*
-- 🐇 **Link a red social:** *https://twitter.com/nombre*
-- 🦾 **Perfil:** *Novato / Bajo / Medio / Avanzado / Experto*
+- 🦄 **Desarrollador/a:** *Romii278*
+- 🐇 **Link a red social:** *https://twitter.com/romii278*
+- 🦾 **Perfil:** *Novato*
 - 💬 **Un comentario breve o frase ingeniosa**: *-*
 
 ## Observaciones
