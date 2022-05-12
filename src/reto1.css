@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+:root {
+  --card-color-line: #ff3867;
+  --card-color-to: #ffc873;
+  --card-color-since: #e297a8;
+  --card-color-avatar-since: #ee9de2;
+  --card-color-avatar-to: #c22ad0;
+  --card-color-ubicacion: #a05d5d;
+  --card-color-buttom: #2d7cbf;
+  --card-color-font: #888888;
+}
+
+.container {
+  margin: 0;
+  background: linear-gradient(
+    to top right,
+    var(--card-color-since),
+    var(--card-color-to)
+  );
+  border: solid 5px #000;
+  width: 850px;
+  height: 560px;
+}
+.tarjeta {
+  width: 380px;
+  height: 620px;
+  margin: 2em;
+  justify-content: center;
+  display: flex;
+  transform: translate(181px, 0px);
+}
+
+.encabezado {
+  width: inherit;
+  height: 20%;
+  background-image: url(https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+  position: absolute;
+  border-bottom: var(--card-color-line) solid 2px;
+  display: flex;
+  opacity: 80%;
+  border-top-left-radius: 4%;
+  border-top-right-radius: 4%;
+  z-index: 1;
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  background: linear-gradient(
+    to top right,
+    var(--card-color-avatar-since),
+    var(--card-color-avatar-to)
+  );
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+  border: var(--card-color-line) solid 2px;
+  transform: translateY(21px);
+  z-index: 1;
+}
+.cuerpo {
+  width: inherit;
+  height: 384px;
+  background: #fff;
+  position: absolute;
+  display: flex;
+  transform: translateY(121px);
+  z-index: 0;
+  border-bottom-right-radius: 4%;
+  border-bottom-left-radius: 4%;
+  box-shadow: inset 1px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+h3,
+h4 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  transform: translate(145px, 40px);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#img-ubicacion {
+  transform: translate(135px, 38px);
+}
+h4 {
+  font-size: 10px;
+  font-style: italic;
+  color: var(--card-color-line);
+  font-weight: lighter;
+  transform: translate(147px, 25px);
+}
+p {
+  text-align: left;
+  font-size: 13px;
+  padding: 20px;
+  display: flex;
+  position: absolute;
+  transform: translateY(82px);
+  font-family: "Poppins", sans-serif;
+  color: var(--card-color-font);
+}
+
+.bottom {
+  width: 64px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  border-radius: 48% / 90% 90% 90% 90%;
+  border: 3px solid var(--card-color-buttom);
+  transform: translate(68px, 231px);
+}
+
+.bottom:hover {
+  content: "";
+  display: inline-block;
+  background: var(--card-color-buttom);
+}
+
+h5 {
+  display: flex;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--card-color-buttom);
+  transform: translate(8px, -18px);
+}
+
+h5:hover {
+  content: "";
+  display: inline-block;
+  color: #fff;
+}
+
+.pie1 {
+  display: flex;
+  width: 127px;
+  height: 45px;
+  border-top: solid 1px var(--card-color-font);
+  border-right: solid 1px var(--card-color-font);
+  position: absolute;
+  transform: translate(213px, -210px);
+}
+
+.pie2 {
+  display: flex;
+  width: 127px;
+  height: 45px;
+  border-top: solid 1px var(--card-color-font);
+  border-right: solid 1px var(--card-color-font);
+  position: absolute;
+  transform: translate(341px, -210px);
+}
+.pie3 {
+  display: flex;
+  width: 125px;
+  height: 45px;
+  border-top: solid 1px var(--card-color-font);
+  position: absolute;
+  transform: translate(128px, -1px);
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  text-align: center;
+  margin: 0;
+  transform: translate(44px, 11px);
+}
+
+.img-post {
+  display: flex;
+  position: absolute;
+  transform: translate(33px, 25px);
+}
+.img-follow {
+  display: flex;
+  position: absolute;
+  transform: translate(46px, 25px);
+}
+
+.img-follower {
+  display: flex;
+  position: absolute;
+  transform: translate(46px, 25px);
+}
