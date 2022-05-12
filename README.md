@@ -1,4 +1,4 @@
-# manzdev-retos-titulo
+# manzdev-retos-basic-card
 
 🌍 **URL del reto**: *https://lenguajejs.com/retos/nivel-facil/basic-card/*
 
@@ -7,17 +7,16 @@
 - 🦄 **Desarrollador/a:** *Romii278*
 - 🐇 **Link a red social:** *https://twitter.com/romii278*
 - 🦾 **Perfil:** *Novato*
-- 💬 **Un comentario breve o frase ingeniosa**: *-*
+- 💬 **¡< DIV > antes que nada!**
+
+![Captura](https://user-images.githubusercontent.com/97247907/168070675-d61ba2b2-90a3-4a5b-916b-12f85924341c.PNG)
+
 
 ## Observaciones
 
-*Escribe aquí tus observaciones sobre la implementación*
+*Me ha encantado realizar este reto, lo recomiendo si estáis empezando con CSS y HTML, es brutal*
 
 > Puedes encontrar otros retos de Manz.dev en: <br>▶ https://lenguajejs.com/retos/
 
 ---
-*Puedes borrar todo desde esta línea en adelante*
 
----
-
-Recuerda cambiar el título del repo, los datos y desplegar la versión en GitHub Pages e indicar la URL en la esquina superior derecha de tu repositorio de GitHub, junto a una pequeña descripción.
